@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary_color"
+    tools:context=".MainActivity">
+
+        <ScrollView
+            android:id="@+id/mainActivityScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_yellow_button"
+            android:padding="25dp"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <!-- Buttons -->
+                <Button
+                    android:id="@+id/lalithaNamamBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/sree_lalitha_sahasra_namam"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/vishnuNamamBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/sree_vishnu_sahasranamam"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/chalisaBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/hanuman_chalisa"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/govindaNamamBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/govinda_namalu"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/sivaNamamBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/siva_namam"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/adityaBttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="55dp"
+                    android:backgroundTint="@color/button_color"
+                    android:text="@string/adithya_name"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

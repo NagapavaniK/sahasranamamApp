@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">స్తోత్ర రత్నావలి</string>
+    <string name="app_title">స్తోత్ర రత్నావలి</string>
+    <string name="home_button">Home </string>
+    <string name="sree_lalitha_sahasra_namam">శ్రీ లలితా సహస్ర నామ స్తోత్రం</string>
+    <string name="sree_vishnu_sahasranamam">శ్రీ విష్ణు సహస్ర నామ స్తోత్రం</string>
+    <string name="hanuman_chalisa">హనుమాన్ చాలీసా</string>
+    <string name="adithya_hrudayam">ఆదిత్య హృదయం</string>
+    <string name="govinda_namalu">గోవింద నామావళి</string>
+    <string name="siva_namam">శివ పంచాక్షరి స్తోత్రం</string>
+    <string name="adithya_name">ఆదిత్య హృదయం</string>
+</resources>
